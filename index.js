@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const url = require('url');
 
 // Feel free to update with your own website URL
-const websiteUrl = 'https://onbroker.co';
+const websiteUrl = 'https://example.com';
 
 async function scrapeWebsite(websiteUrl) {
   const visitedUrls = new Set();
